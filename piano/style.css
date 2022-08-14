@@ -1,0 +1,66 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+.container {
+	width: 370px;
+	height: 160px;
+	background-color: #000;
+	position: relative;
+	/*top: 40%;
+	left:38%; */
+	border-radius: 10px;
+	padding: 0 5px 0 5px;
+}
+.title {
+	position: absolute;
+	top: 5px;
+	left: 27%;
+	color: white;
+	font-family: Trebuchet MS;
+	letter-spacing: 4px;
+	font-size: 2.3rem;
+}
+.white-keys {
+	  width: 100%;
+  height: 65%;
+  background-color: ;
+  position: relative;
+  top: 34%;
+  display: flex;
+  gap: 10px;
+
+}
+.white {
+	width: 45px;
+height: 100%;
+background-color: white;
+border-radius: 4px;
+cursor: pointer;
+}
+.white:active {
+	box-shadow: inset 0 -2px 5px #262626;
+	transition: all 0.3s ease;
+}
+.black-keys {
+	width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 32%;
+    margin-left: 33px;
+    background: transparent;
+}
+.black {
+	background-color: black;
+	width: 25px;
+	height: 100%;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.blank {
+	background-color: transparent;
+}
